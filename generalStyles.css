@@ -1,0 +1,30 @@
+html{
+/*    background-color: #f2f6ff;*/
+    background-color: white;
+}
+
+body{
+    text-align: center;
+}
+
+div.items_for_sales{
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 0px 10px 15px 0px #d3d3d3;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+}
+
+div.contactUs{
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px;
+    margin: 40px;
+    box-shadow: 0px 1px 2px 0px #d3d3d3;
+    transition: box-shadow 0.3s ease-in-out;
+}
+div.contactUs:hover{
+    box-shadow: 0px 10px 15px 0px #d3d3d3;
+}
