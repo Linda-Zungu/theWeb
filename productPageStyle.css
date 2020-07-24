@@ -1,0 +1,36 @@
+/* html{
+    background-color: red;
+} */
+
+body{
+    /* background-color: purple; */
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+}
+
+.details{
+    border-radius: 30px;
+    margin: 40px;
+    box-shadow: 0px 15px 30px 5px #d3d3d3;
+    padding: 30px;
+}
+
+.col-1{
+    float: left;
+    margin-right: 10px;
+    clear:both;
+    padding-bottom: 50px;
+    padding-right: 90px;
+    padding-left: 20px;
+}
+
+.col-2{
+    margin-left: 0px;
+    overflow:auto;
+    display:block;
+}
