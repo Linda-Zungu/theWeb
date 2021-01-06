@@ -87,8 +87,20 @@ li:hover.button{
     padding-bottom: 10px;
 }
 
-.pic{
-    float: left;
-    width: 50%;
-    margin: 0%;
-}
+/* .pic{ */
+    /* float: right; */
+    /* width: 100%;
+    margin: 0%; */
+/* } */
+
+@media screen and (max-width: 900px) {
+    .pic {
+       width: 50%;
+       position: center;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    .pic {
+       width: 100%;
+    }
+ }
