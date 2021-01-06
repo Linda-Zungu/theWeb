@@ -2,11 +2,11 @@ html{
     background-color: #f3f3f3;
 }
 
-h1{
+/* h1{
     margin: 0;
     padding: 15px;
     background-color: white;
-}
+} */
 
 body{
     margin: 0;
@@ -16,10 +16,80 @@ body{
 a{
     text-decoration: none;
     background-color: transparent;
-    color: black;
+    color: rgb(241, 97, 140);
 }
 a:visited{
     text-decoration: dotted;
+}
+
+.button{
+    position: relative;
+    top: 0pt;
+    display: inline;
+    padding: 4%;
+    padding-top: 7%;
+    display: inline-block;
+    transition: font-size 0.15s ease-in-out;
+    color: rgb(141, 139, 139);
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.listContainer{
+    position: sticky;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 70px;
+    /* width: fit-content; */
+    top: 4%;
+    /* box-shadow: 0px 15px 30px 5px rgb(201, 200, 200); */
+    box-shadow: 0px 15px 30px 5px rgb(180, 180, 180);
+
+    background: rgba( 255, 255, 255, 0.25 );
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+li:hover.button{
+    font-size: medium;
+}
+
+#front{
+    position: sticky;
+    margin-top: -10px;
+    margin-left: -78px;
+    padding: 10px;
+    top: 2%;
+    float: left;
+    width: 70px;
+    left: 5px;
+    border-radius: 20px;
+    display: inline;
+    /* box-shadow: 0px 15px 30px 5px rgb(148, 148, 148); */
+    
+}
+#back{
+    position: center;
+    margin-top: -120px;
+    width: 100%;
+    /* bottom: 100%; */
+    bottom: 1000px;
+}
+
+.inspirationImg{
+    position: relative;
+    border-radius: 35px;
+    bottom: 35px;
+    width: 100%;
 }
 
 .sales{
@@ -58,6 +128,7 @@ li.toPage{
     margin-left: 45%;
     border-radius: 10px;
     width: fit-content;
+    
 }
 
 li:hover.toPage{
