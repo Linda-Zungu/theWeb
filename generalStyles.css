@@ -34,8 +34,8 @@ a:visited{
     transition: font-size 0.15s ease-in-out;
     color: rgb(141, 139, 139);
     font-family: sans-serif;
-    font-size: small;
-    font-weight: 900;
+    font-size: smaller;
+    font-weight: 100;
 }
 
 .listContainer{
@@ -47,9 +47,9 @@ a:visited{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* width: 350px; */
-    /* height: 70px; */
-    width: fit-content;
+    width: 350px;
+    height: 10%;
+    /* width: fit-content; */
     top: 4%;
     /* box-shadow: 0px 15px 30px 5px rgb(201, 200, 200); */
     box-shadow: 0px 15px 150px 5px rgb(180, 180, 180);
@@ -73,7 +73,8 @@ li:hover.button{
     padding: 10px;
     top: 2%;
     float: left;
-    width: 70px;
+    /* width: 70px; */
+    width: 1.5%;
     left: 5px;
     border-radius: 20px;
     display: inline;
@@ -82,10 +83,10 @@ li:hover.button{
 }
 #back{
     position: center;
-    margin-top: -120px;
+    /* margin-top: -120px; */
     width: 100%;
     /* bottom: 100%; */
-    bottom: 1000px;
+    /* bottom: 1000px; */
 }
 
 .inspirationImg{
