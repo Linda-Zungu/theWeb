@@ -82,8 +82,7 @@ li:hover.button{
     left: 30px;
     border-radius: 10px;
     display: inline;
-    box-shadow: 0px 1px 3px 0px rgb(148, 148, 148);
-    transition: box-shadow 10s ease;
+    box-shadow: 0px 1px 3px 0px rgb(0, 0, 0);
     transition: margin-top 0.4s ease-in-out;
     
 }
@@ -91,7 +90,7 @@ li:hover.button{
     box-shadow: 0px 3px 4px 2px rgb(148, 148, 148);
     transition: box-shadow 0.5s ease-in-out;
     margin-top: -3px;
-    transition: margin-top 0.1s ease-in-out;
+    transition: margin-top 0.2s ease-in-out;
 }
 
 #back{
