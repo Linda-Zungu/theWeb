@@ -1,9 +1,11 @@
 html{
     background-image: url("CrownedByRoyals Images/9.JPG");
     background-attachment: fixed;
+    background-size: 100%;
     /* background-position: center; */
+    width: 100%;
     backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(2px);
 }
 
 body{
@@ -22,7 +24,7 @@ a:visited{
 }
 
 a:hover{
-    color: red;
+    color: rgb(255, 147, 165);
 }
 
 .button{
@@ -64,7 +66,7 @@ a:hover{
 }
 
 li:hover.button{
-    color: red;
+    color: rgb(255, 147, 165);
 }
 
 #front{
@@ -88,4 +90,28 @@ li:hover.button{
     transition: box-shadow 0.5s ease-in-out;
     margin-top: -3px;
     transition: margin-top 0.2s ease-in-out;
+}
+
+.ContactInfoContainer{
+    position: sticky;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 100%;
+    /* width: fit-content; */
+    top: 1.5%;
+    /* box-shadow: 0px 15px 30px 5px rgb(201, 200, 200); */
+    box-shadow: 0px 15px 150px 5px rgb(180, 180, 180);
+
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 15px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
