@@ -10,12 +10,15 @@ body{
 a{
     text-decoration: none;
     background-color: transparent;
-    /* color: rgb(241, 97, 140); */
     color: rgb(141, 139, 139);
+    transition: color 0.3s ease-in-out;
 }
 a:visited{
     text-decoration: dotted;
-    color: rgb(241, 97, 140);
+}
+
+a:hover{
+    color: red;
 }
 
 .button{
@@ -94,7 +97,6 @@ li:hover.button{
 
 @media screen and (max-width: 3000px) {
     .pic {
-        position: static;
         float: left;
         width: 50%;
         margin: 0%;
@@ -102,7 +104,6 @@ li:hover.button{
  }
  @media screen and (max-width: 600px) {
     .pic {
-        position: static;
         width: 100%;
     }
  }
