@@ -2,10 +2,10 @@
 html{
     background-image: url("CrownedByRoyals Images/9.JPG");
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
     background-repeat: round;
-    background-position: center;
-    height: 100%;
+    /* background-position: center; */
+    width: 100%;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(0px);
 }
