@@ -149,6 +149,27 @@ li:hover.button{
     padding: 7px;
     position: relative;
     top: -9px;
+    color: dimgray;
+}
+.fa-twitter{
+    color: #0099CC;
+}
+
+.fa-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    /* background-clip: text; */
+    -webkit-text-fill-color: transparent;
+    padding: 7px;
+    position: relative;
+    top: -8px;
+}
+.fa-facebook-square{
+    color: #3b5998;
+    background-image: linear-gradient( to bottom, transparent 20%, white 20%, white 93%, transparent 93% );
+    background-size: 66.4%;
+    background-position: 70% 0;
+    background-repeat: no-repeat;
 }
 
 h1{
