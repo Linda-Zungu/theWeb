@@ -2,10 +2,10 @@
 html{
     background-image: url("CrownedByRoyals Images/9.JPG");
     background-attachment: fixed;
-    background-size: 200%;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* height: 100%; */
+    background-size: 150%;
+    background-repeat: round;
+    /* background-position: center; */
+    width: 100%;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(0px);
 }
@@ -103,7 +103,7 @@ li:hover.button{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 990px;
+    margin-bottom: 20px;
     width: 90%;
     height: 100%;
     top: 1.5%;
