@@ -167,7 +167,7 @@ li:hover.button{
 .fa-facebook-square{
     color: #3b5998;
     background-image: linear-gradient( to bottom, transparent 20%, white 20%, white 93%, transparent 93% );
-    background-size: 66.4%;
+    background-size: 17px;
     background-position: 70% 0;
     background-repeat: no-repeat;
 }
