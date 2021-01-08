@@ -4,7 +4,7 @@ html{
     background-attachment: fixed;
     background-size: 150%;
     background-repeat: round;
-    /* background-position: center; */
+    background-position: center;
     width: 100%;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(0px);
