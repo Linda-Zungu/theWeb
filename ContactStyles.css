@@ -96,6 +96,9 @@ li:hover.button{
 
 .ContactInfoContainer{
     position: sticky;
+  top: var(--space-sm);
+  transform-origin: center top;
+    position: sticky;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 0px;
@@ -137,6 +140,7 @@ li:hover.button{
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 2px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
 }
 
 .contacts:hover{
