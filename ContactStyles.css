@@ -95,8 +95,6 @@ li:hover.button{
 }
 
 .ContactInfoContainer{
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
     position: sticky;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -203,8 +201,4 @@ h1{
         font-size: large;
         color: rgb(65, 64, 64);
     }
-}
-
-.some{
-    scroll-snap-align: start;
 }
