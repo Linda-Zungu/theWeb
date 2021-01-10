@@ -1,5 +1,13 @@
 html{
-    background-color: rgb(148, 105, 56);
+    /* background-color: rgb(148, 105, 56); */
+    background-image: url("CrownedByRoyals Images/9.JPG");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* height: 100%; */
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(0px);
 }
 
 body{
@@ -49,10 +57,10 @@ a:hover{
     /* width: fit-content; */
     top: 1.5%;
     /* box-shadow: 0px 15px 30px 5px rgb(201, 200, 200); */
-    /* box-shadow: 0px 15px 150px 5px rgb(180, 180, 180); */
-
+    box-shadow: 0px 15px 150px 5px rgb(180, 180, 180);
+    
     background: rgba( 255, 255, 255, 0.25 );
-    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    /* box-shadow: 0 8px 32px 0 rgba(135, 99, 31, 0.068); */
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 6px );
     border-radius: 20px;
@@ -98,13 +106,13 @@ li:hover.button{
     width: 100%;
     margin: 0px;
     /* border-radius: 10px; */
-    bottom: 100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* bottom: 100px; */
+    /* padding-top: 10px; */
+    /* padding-bottom: 10px; */
 }
 
 .pic{
-    display: inline-flex;
+    display: inline-block;
     width: 100%;
 }
 /* @media screen and (max-width: 3000px) {
