@@ -208,7 +208,6 @@ h1{
     font-variant: small-caps;
 
     display: inline-block;
-    /* padding: 10px; */
     padding-top: 10px;
     padding-bottom: 20px;
     margin-left: 50px;
@@ -224,4 +223,8 @@ h1{
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 2px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.bottomLinks{
+    padding: 10px;
 }
