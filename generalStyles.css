@@ -1,7 +1,7 @@
 html{
     /* background-color: #f3f3f3; */
     /* background-color: rgba(0, 0, 0, 0.192); */
-    background-image: linear-gradient(white,white,white,white,white,lightgray, gray);
+    /* background-image: linear-gradient(white,white,white,white,white,lightgray, gray); */
     
 }
 
@@ -10,7 +10,10 @@ html{
     padding: 15px;
     background-color: white;
 } */
-
+footer{
+    background-image: linear-gradient(white, white,lightgray);
+    padding-bottom: 10px;
+}
 body{
     margin: 0;
     text-align: center;
