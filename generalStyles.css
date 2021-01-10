@@ -1,5 +1,7 @@
 html{
     /* background-color: #f3f3f3; */
+    /* background-color: rgba(0, 0, 0, 0.192); */
+    background-image: linear-gradient(white,white,white,white,white,lightgray, gray);
     
 }
 
@@ -177,7 +179,7 @@ footer{
     top: 1.5%;
     /* box-shadow: 0px 15px 30px 5px rgb(201, 200, 200); */
     /* box-shadow: 0px 15px 150px 5px rgb(180, 180, 180); */
-    /* box-shadow: 0px 15px 150px 5px rgb(180, 180, 180); */
+    box-shadow: 0px 15px 150px 5px rgba(180, 180, 180, 0.377);
 
     background: rgba( 255, 255, 255, 0.25 );
     backdrop-filter: blur( 4px );
@@ -200,6 +202,7 @@ footer{
     width: 200px;
     
     /* box-shadow: 0px 0px 4px 0px rgba(58, 50, 29, 0.37); */
+    box-shadow: 0px 15px 150px 5px rgba(180, 180, 180, 0.377);
     border-radius: 20px;
     background: rgba( 255, 255, 255, 0.25 );
     background-size: 10px;
