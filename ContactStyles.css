@@ -204,13 +204,12 @@ h1{
 }
 
 .moreInfo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+
     display: inline-block;
-    /* padding: 7.3%; */
     padding: 80px;
-    /* background-color: red; */
-    /* margin-left: 5%; */
     margin-left: 50px;
-    /* margin-right: 5%; */
     margin-right: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
