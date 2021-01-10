@@ -159,7 +159,7 @@ li:hover.button{
 .fa-instagram{
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     -webkit-background-clip: text;
-    /* background-clip: text; */
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 7px;
     position: relative;
@@ -201,4 +201,21 @@ h1{
         font-size: large;
         color: rgb(65, 64, 64);
     }
+}
+
+.moreInfo{
+    display: inline-block;
+    padding: 10px;
+    background-color: red;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    border-radius: 20px;
+    background: rgba( 255, 255, 255, 0.25 );
+    background-size: 10px;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 2px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
