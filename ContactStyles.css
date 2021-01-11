@@ -183,6 +183,7 @@ h1{
     color: bisque;
     font-weight: 1;
     font-size: 500%;
+    white-space: nowrap;
 }
 @media screen and (max-width: 3000px){
     p{
