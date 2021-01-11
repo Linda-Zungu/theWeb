@@ -182,7 +182,7 @@ h1{
     text-align: center;
     color: bisque;
     font-weight: 1;
-    font-size: 400%;
+    font-size: 90px;
     white-space: nowrap;
 }
 @media screen and (max-width: 3000px){
