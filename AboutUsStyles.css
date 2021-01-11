@@ -25,7 +25,8 @@ body{
 a{
     text-decoration: none;
     background-color: transparent;
-    color: rgb(141, 139, 139);
+    /* color: rgb(141, 139, 139); */
+    color: rgb(226, 233, 247);
     transition: color 0.3s ease-in-out;
 }
 a:visited{
@@ -33,7 +34,7 @@ a:visited{
 }
 
 a:hover{
-    color: red;
+    color: rgb(255, 147, 165);
 }
 
 .button{
@@ -44,7 +45,8 @@ a:hover{
     padding-top: 8%;
     display: inline-block;
     transition: color 0.3s ease-in-out;
-    color: rgb(141, 139, 139);
+    /* color: rgb(141, 139, 139); */
+    color: rgb(226, 233, 247);
     font-family: sans-serif;
     font-size: 12;
     font-weight: 900;
@@ -75,7 +77,7 @@ a:hover{
 }
 
 li:hover.button{
-    color: red;
+    color: rgb(255, 147, 165);
 }
 
 #front{
