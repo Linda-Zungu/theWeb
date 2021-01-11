@@ -1,13 +1,20 @@
 html{
     /* background-color: rgb(148, 105, 56); */
-    background-image: url("CrownedByRoyals Images/9.JPG");
+    /* background-image: url("CrownedByRoyals Images/9.JPG");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /* height: 100%; */
     backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px); */
+    /* background-image: radial-gradient(#eacda8, #e0b67f); */
+    /* background-image: linear-gradient(#eacda8, #d6ae9b); */
+    background-color: #eacda8;
+}
+
+footer{
+    background-image: linear-gradient(#eacda8, #d6ae9b,#d6ae9b);
+    padding-bottom: 10px;
 }
 
 body{

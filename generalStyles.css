@@ -2,7 +2,8 @@ html{
     /* background-color: #f3f3f3; */
     /* background-color: rgba(0, 0, 0, 0.192); */
     /* background-image: linear-gradient(white,white,white,white,white,lightgray, gray); */
-    
+    /* background-image: radial-gradient(#eacda3, #d6ae7b); */
+    background-color: #eacda8;
 }
 
 /* h1{
@@ -11,7 +12,9 @@ html{
     background-color: white;
 } */
 footer{
-    background-image: linear-gradient(white, white,lightgray);
+    /* background-image: linear-gradient(white, white,lightgray, gray); */
+    /* background-image: linear-gradient(#eacda3, #d6ae7b); */
+    background-image: linear-gradient(#eacda8, #d6ae9b,#d6ae9b);
     padding-bottom: 10px;
 }
 body{
