@@ -10,6 +10,7 @@ html{
     -webkit-backdrop-filter: blur(0px); */
     /* background-color: #eacda8; */
     background-image: linear-gradient(#eacda8, #d6ae9b,#d6ae9b);
+    background-attachment: fixed;
 }
 
 body{
