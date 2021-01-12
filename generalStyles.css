@@ -103,6 +103,9 @@ nav{
         display: block;
         cursor: pointer;
     }
+    .logo{
+        margin-left: -15%;
+    }
 }
 
 .nav-active{
