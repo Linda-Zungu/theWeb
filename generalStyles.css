@@ -116,7 +116,7 @@ nav{
     }
     .childImg{
         width: 100%;
-        margin-top: 75%;
+        /* margin-top: 75%; */
         /* margin-left: 30%; */
         /* justify-content: center; */
         display: block;
@@ -125,7 +125,7 @@ nav{
         
     }
     .childImg img{
-        width: 40%;
+        /* width: 30%; */
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -141,7 +141,7 @@ nav{
         color: white;
         text-transform: uppercase;
         font-family: Helvetica, sans-serif;
-        font-size: 25px;
+        font-size: 45px;
     }
 }
 
@@ -261,7 +261,7 @@ html{
 }
 
 .CBRText{
-    z-index: 0;
+    /* z-index: 0; */
     position: absolute;
     top: 0;
     text-align: center;
