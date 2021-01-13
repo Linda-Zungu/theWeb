@@ -122,7 +122,9 @@ nav{
     }
 
     .parentImg .logo-text span{
-        width: 95%;
+        width: 98%;
+        font-size: 25px;
+        
     }
     .parentImg .logo-text .logoInBody{
         width: 45%;
