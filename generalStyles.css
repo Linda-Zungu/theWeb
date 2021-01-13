@@ -123,7 +123,6 @@ nav{
     .parentImg .logo-text span{
         width: 98%;
         font-size: 25px;
-        
     }
     .parentImg .logo-text .logoInBody{
         width: 45%;
@@ -266,20 +265,21 @@ html{
     box-shadow: 0px 27px 50px 0px rgba(58, 50, 29, 0.37);
 
 }
-.parentImg span{
+.parentImg .logo-text span{
     position: absolute;
-    
     width: 100%;
     color: white;
     font-family: Helvetica, sans-serif;
-    letter-spacing: 10px;
+    line-height: 160%;
+    letter-spacing: 14px;
     font-size: 30px;
     text-align: left;
     padding-left: 25%;
     padding-right: 30%;
     text-transform: uppercase;
+    
+
     margin-top: auto;
     margin-bottom: auto;
-    /* background-color: red; */
     margin-left: 25%;
 }
