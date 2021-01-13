@@ -270,7 +270,7 @@ html{
     width: 100%;
     color: white;
     font-family: Helvetica, sans-serif;
-    line-height: 160%;
+    /* line-height: 160%; */
     letter-spacing: 14px;
     font-size: 30px;
     text-align: left;
