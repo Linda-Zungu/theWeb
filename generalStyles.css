@@ -224,7 +224,6 @@ html{
 }
 
 .logoImg{
-    
     position: relative;
     width: 300px;
     margin-left: 30%;
@@ -281,4 +280,21 @@ html{
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 25%;
+}
+
+
+
+/* Second Part of the Image */
+.parentImg2 img{
+    /* position: absolute; */
+    margin-left: 55%;
+    margin-right: 10%;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    
+    
+    border-radius: 20px;
+    width: 40%;
+    right: 0;
+    box-shadow: 0px 27px 50px 0px rgba(58, 50, 29, 0.37);   
 }
