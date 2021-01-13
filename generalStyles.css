@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 
 nav img{
@@ -114,34 +115,8 @@ nav{
     .logo{
         margin-left: -12.5%;
     }
-    .childImg{
-        width: 100%;
-        /* margin-top: 75%; */
-        /* margin-left: 30%; */
-        /* justify-content: center; */
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    .childImg img{
-        /* width: 30%; */
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
     .backgroundCBR{
         height: 1000px;
-    }
-    .parentImg .CBRText{
-        padding: 0px;
-        padding-right: 25px;
-        padding-left: 25px;
-        color: white;
-        text-transform: uppercase;
-        font-family: Helvetica, sans-serif;
-        font-size: 45px;
     }
 }
 
@@ -226,6 +201,7 @@ footer{
 
 html{
     background-color: #F0F0F0;
+    
     /* background-color: bisque; */
     /* background-image: url("CrownedByRoyals Images/UntitledCBRBackground.png");
     background-attachment: fixed;
@@ -246,43 +222,43 @@ html{
     z-index: 1;
 }
 
-.parentImg{
-    pointer-events: none;
-    width:100%;
-    position:absolute;
-    z-index:0;
-}
+/* .parentImg ul li img{
+    display: table;
+    width: 100px;
+    align-items: top;
 
-.childImg{
-    position: absolute;
-    /* z-index:1; */
-    top: 0;
-    /* right: 0; */
-}
+} */
 
-.CBRText{
-    /* z-index: 0; */
-    position: absolute;
-    top: 0;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.parentImg .logo-text{
     width: 100%;
-
-    padding: 80px;
-    padding-left: 450px;
-    letter-spacing: 10px;
-    margin-top: 150px;
-
-    color: white;
-    text-transform: uppercase;
-    font-family: Helvetica, sans-serif;
-    font-size: 40px;
+    margin-top: 30vh;
+    z-index: 0;
+    top: 0;
+    position: absolute;
+    /* margin-left: 10%; */
+    padding-left: 5%;
+    /* background-color: #e26429; */
 }
+.parentImg .logo-text img{
+    width: 27%;
+    border-radius: 50%;
+    box-shadow: 0px 25px 50px 0px rgba(58, 50, 29, 0.37);
 
-.parentImg .inspirationImg{
-    /* padding-left: 40px; */
-    width: 50%;
-    border-radius: 10px;
+}
+.parentImg span{
+    position: absolute;
+    
+    width: 100%;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 10px;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 30%;
+    text-transform: uppercase;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* background-color: red; */
+    margin-left: 25%;
 }
