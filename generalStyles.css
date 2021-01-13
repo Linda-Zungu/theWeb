@@ -236,10 +236,13 @@ html{
 } */
 .parentImg .backgroundCBR{
     width: 100%;
+    overflow-x: hidden;
 }
 
 .parentImg .logo-text{
+    overflow-x: hidden;
     width: 100%;
+    height: 100%;
     margin-top: 30vh;
     z-index: 0;
     top: 0;
