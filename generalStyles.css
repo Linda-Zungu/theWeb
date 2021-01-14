@@ -124,6 +124,7 @@ nav{
     .parentImg .logo-text h3{
         /* width: 98%; */
         font-size: 30px;
+        padding-right: 10px;
     }
     .parentImg .logo-text .logoInBody{
         width: 45%;
