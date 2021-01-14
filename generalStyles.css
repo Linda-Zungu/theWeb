@@ -2,11 +2,12 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
+
 }
 
 nav img{
     transition: box-shadow 0.3s ease-in-out;
+    /* box-shadow: 0px 1px 5px 0px rgba(90, 76, 76, 0.582); */
 }
 nav img:hover{
     box-shadow: 0px 10px 20px 0px rgba(90, 76, 76, 0.582);
@@ -126,6 +127,29 @@ nav{
     }
     .parentImg .logo-text .logoInBody{
         width: 45%;
+    }
+
+    /* Second part for mobile */
+    .parentImg2 .img2{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        overflow-x: hidden;
+        width: 60%;
+
+    }
+    .parentImg2{
+        /* background-color: rebeccapurple; */
+        padding-bottom: 100px;
+    }
+
+    .parentImg2 .img2Text{
+        padding-right: 0%;
+        margin-top: 0%;
+        text-align: center;
+        margin-left: 0;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
 
@@ -262,6 +286,7 @@ html{
     width: 32%;
     border-radius: 50%;
     box-shadow: 0px 27px 50px 0px rgba(58, 50, 29, 0.37);
+    /* border: 2px solid rgba( 255, 255, 255, 0.18 ); */
 
 }
 .parentImg .logo-text span{
@@ -288,13 +313,26 @@ html{
 .parentImg2 img{
     /* position: absolute; */
     margin-left: 55%;
-    margin-right: 10%;
-    margin-top: 100px;
+    /* margin-right: 10%; */
+    margin-top: 50px;
     margin-bottom: 60px;
-    
     
     border-radius: 20px;
     width: 40%;
     right: 0;
-    box-shadow: 0px 27px 50px 0px rgba(58, 50, 29, 0.37);   
+    box-shadow: 0px 30px 50px 0px rgba(58, 50, 29, 0.37); 
+    /* border: 2px solid rgba( 255, 255, 255, 0.18 );   */
+}
+.parentImg2 h3{
+    /* background-color: red; */
+    position: absolute;
+    margin-top: -55%;
+    margin-left: 8%;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 10px;
+    font-weight: 400;
+    color: black;
+    padding-right: 50%;
 }
