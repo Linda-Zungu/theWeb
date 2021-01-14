@@ -135,7 +135,7 @@ nav{
         margin-right: auto;
         display: block;
         overflow-x: hidden;
-        width: 60%;
+        width: 80%;
 
     }
     .parentImg2{
@@ -148,8 +148,8 @@ nav{
         margin-top: 0%;
         text-align: center;
         margin-left: 0;
-        padding-left: 10%;
-        padding-right: 10%;
+        /* padding-left: 10%; */
+        /* padding-right: 10%; */
     }
 }
 
