@@ -121,9 +121,9 @@ nav{
     .backgroundCBR{
         height: 800px;
     }
-    .parentImg .logo-text span{
-        width: 98%;
-        font-size: 25px;
+    .parentImg .logo-text h3{
+        /* width: 98%; */
+        font-size: 30px;
     }
     .parentImg .logo-text .logoInBody{
         width: 45%;
