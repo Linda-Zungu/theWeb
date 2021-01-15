@@ -119,15 +119,42 @@ nav{
         margin-left: -12.5%;
     }
     .backgroundCBR{
-        height: 800px;
+        height: 900px;
+    }
+    .parentImg .logo-text{
+        /* background-color: red; */
+        top: 0px;
+        margin-top: 0vh;
+    }
+    .parentImg .logo-text .logoText{
+        display: block;
+        position: absolute;
+        top: 0px;
+        position: absolute;
+        left: 0;
+        padding: 0;
+        margin-top: -10px;
+        margin-top: 0;
+        margin-left: 0%;
+        margin-right: -10%;
+        /* background-color: black; */
+        
     }
     .parentImg .logo-text h3{
         /* width: 98%; */
+        text-align: center;
         font-size: 30px;
-        padding-right: 5%;
+        /* margin-top: -40%; */
+        /* background-color: red; */
+        /* padding-right: 5%; */
+        /* padding-bottom: 10%; */
     }
     .parentImg .logo-text .logoInBody{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         width: 45%;
+        margin-top: 30%;
     }
 
     /* Second part for mobile */
@@ -279,7 +306,7 @@ html{
     width: 100%;
     height: 100%;
     padding-top: 2%;
-    margin-top: 30vh;
+    margin-top: 130px;
     z-index: 0;
     top: 0;
     position: absolute;
