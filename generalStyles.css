@@ -187,6 +187,11 @@ nav{
         padding-right: 10%;
         padding-bottom: 10%;
     }
+
+    /* Footer for mobile */
+    footer{
+        padding-top: 20%;
+    }
 }
 
 .nav-active{
