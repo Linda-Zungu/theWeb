@@ -329,7 +329,9 @@ html{
 
 footer{
     /* background-image: linear-gradient(#eacda8, #d6ae9b,#d6ae9b); */
-    background: linear-gradient(#F0F0F0,lightgray);
+    /* background: linear-gradient(#F0F0F0,lightgray); */
+    background: linear-gradient(#F0F0F0, lightgray, rgb(218, 176, 122));
+    color: ;
     padding-bottom: 10px;
 }
 
