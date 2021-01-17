@@ -154,7 +154,7 @@ footer{
     /* background: linear-gradient(#F0F0F0,lightgray); */
     background: linear-gradient(bisque, rgb(241, 207, 165), rgb(182, 145, 97));
     padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 .ContactInfoContainer{
