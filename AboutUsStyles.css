@@ -10,7 +10,7 @@ html{
 nav img{
     transition: box-shadow 0.3s ease-in-out;
 }
-a img:hover{
+nav img:hover{
     box-shadow: 0px 10px 20px 0px rgba(90, 76, 76, 0.582);
 }
 
@@ -31,6 +31,7 @@ nav{
     -webkit-backdrop-filter: blur( 8px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     box-shadow: 0px 0px 10px 3px rgba(58, 50, 29, 0.37);
+    z-index: 1;
 }
 
 .logo{
@@ -144,4 +145,120 @@ nav{
 }
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
+}
+
+/* The Footer */
+
+footer{
+    /* background-image: linear-gradient(#eacda8, #d6ae9b,#d6ae9b); */
+    /* background: linear-gradient(#F0F0F0,lightgray); */
+    /* background: linear-gradient(#F0F0F0, lightgray, rgb(182, 145, 97)); */
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.ContactInfoContainer{
+    
+    position: sticky;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 90%;
+    height: 80%;
+    top: 1.5%;
+    /* box-shadow: 0px 15px 30px 5px rgb(201, 200, 200); */
+    /* box-shadow: 0px 15px 150px 5px rgb(180, 180, 180); */
+    box-shadow: 0px 20px 20px 0px rgba(182, 145, 97, 0.192);
+
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 8px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.moreInfo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-variant: small-caps; */
+
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    
+    /* box-shadow: 0px 0px 4px 0px rgba(58, 50, 29, 0.37); */
+    border-radius: 20px;
+    background: rgba( 255, 255, 255, 0.25 );
+    background-size: 10px;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 2px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.moreInfo h3{
+    font-family: Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    /* color: black; */
+    color: rgb(182, 145, 97);
+
+    line-height: 40px;
+    font-variant: normal;
+}
+
+.bottomLinks{
+    padding: 13px;
+}
+.pageLinks{
+    color: black;
+}
+.pageLinks:hover{
+    color: gray;
+}
+
+.links{
+    /* pointer-events: all; */
+    color: black;
+    font-weight: 0;
+}
+
+a:link{
+    text-decoration: none;
+}
+.links:hover{
+    /* background-color: #d6249f; */
+    /* box-shadow: 0px 0px 4px 0px rgba(58, 50, 29, 0.37); */
+    color: darkgray;
+}
+
+.fa-twitter{
+    color: #0099CC;
+}
+
+.fa-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 7px;
+    position: relative;
+}
+.fa-facebook-square{
+    color: #3b5998;
+    background-image: linear-gradient( to bottom, transparent 20%, white 20%, white 93%, transparent 93% );
+    background-size: 0;
+    background-position: 70% 0;
+    background-repeat: no-repeat;
 }
