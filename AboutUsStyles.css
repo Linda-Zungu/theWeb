@@ -13,8 +13,8 @@ h2{
     padding-top: 10vh;
     padding-bottom: 30vh;
     top: 0;
-    /* padding-left: 20%; */
-    /* padding-right: 20%; */
+    padding-left: 20%;
+    padding-right: 20%;
     text-transform: uppercase;
     font-family: Helvetica, sans-serif;
     font-weight: 300;
@@ -23,7 +23,6 @@ h2{
     word-spacing: 10px;
     color: white;
     background: linear-gradient(rgb(182, 145, 97),rgb(241, 207, 165), #f0f0f0);
-    
     /* line-break: strict; */
     /* cursor: default; */
     /* pointer-events: none; */
