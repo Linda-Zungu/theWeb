@@ -36,8 +36,9 @@ h2{
     text-align: center;
     letter-spacing: 12px;
     word-spacing: 10px;
-    color: white;
-    background: linear-gradient(rgb(182, 145, 97),rgb(241, 207, 165), #f0f0f0);
+    color: rgb(170, 170, 170);;
+    background: linear-gradient(rgb(238, 222, 202), #f0f0f0, #f0f0f0);
+    /* background-color: #f0f0f0; */
     
     /* line-break: strict; */
     /* cursor: default; */
