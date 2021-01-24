@@ -32,8 +32,10 @@ h2{
     padding-right: 10%;
     color: rgb(170, 170, 170);
     background: #f0f0f0;
-    /* margin-top: -70px; */
-    margin-bottom: -130px;
+    /* margin-top: 7.5%; */
+    /* margin-bottom: -10%; */
+    padding-top: 18%;
+    padding-bottom: 18%;
     font-size: 110%;
 }
 html{
